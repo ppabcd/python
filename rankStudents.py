@@ -51,7 +51,7 @@ def appreciateStudents(sortedStudentRecord):
     print()
 
 def lottery(sortedStudentRecord):
-    print("Congratulation {}, you're win lottery.".format(sortedStudentRecord[randint(0, 1)][0]))
+    print("Congratulation {}, you're win lottery.".format(sortedStudentRecord[randint(0, 2)][0]))
 
 
 studentRecord = readStudentDetails()
